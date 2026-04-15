@@ -97,7 +97,7 @@ jobs:
       # Second step : Trivy FS mode
       # ------------------------------
       - name: trivy FS mode
-        uses: aquasecurity/trivy-action@v0.33.1
+        uses: aquasecurity/trivy-action@v0.35.0
 
         with:
           scan-type: fs             
